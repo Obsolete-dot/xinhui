@@ -7,8 +7,8 @@ const geist = Geist({ subsets: ['latin'], variable: '--font-geist' })
 const geistMono = Geist_Mono({ subsets: ['latin'], variable: '--font-geist-mono' })
 
 export const metadata: Metadata = {
-  title: 'XINHUI | Optical-Grade Injection Molding',
-  description: 'Xinhui Precision Plastics & Packaging — optical-grade injection molding, compliant packaging, and global supply since 2002.',
+  title: 'SUN LIGHT | Precision Injection Molding & Media Enclosures',
+  description: 'SUN LIGHT CASSETTE MANUFACTURING LIMITED — Sony Green Partner certified optical-grade injection molding, CD/cassette packaging, and global supply since 2002.',
   generator: 'v0.app',
   icons: {
     icon: [
