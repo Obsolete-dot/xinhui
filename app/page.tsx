@@ -1,5 +1,6 @@
 'use client'
 
+import Link from 'next/link'
 import { useState } from 'react'
 import { ArrowUpRight, ChevronDown, Cpu, Factory, FileDown, Globe2, Layers3, Mail, Menu, MoveRight, Phone, ShieldCheck, Sparkles, X, Zap } from 'lucide-react'
 
