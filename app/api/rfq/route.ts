@@ -44,7 +44,9 @@ export async function POST(request: Request) {
     })
 
     if (!response.ok) {
-      return NextResponse.json({ error: 'Email delivery failed.' }, { status: 502 })
+      const errorDetail = await response.json().catch(() => null)
+      console.error('Resend API Error:', errorDetail)
+      return NextResponse.json({ error: 'Email delivery failed.', detail: errorDetail }, { status: 502 })
     }
     return NextResponse.json({ ok: true })
   } catch {
