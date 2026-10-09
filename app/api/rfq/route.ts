@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
 
-const recipients = ['jimwyj5@gmail.com']
+const recipients = ['jimwyj5@gmail.com', 'ngkeihing@126.com']
 
 function escapeHtml(value: string) {
   return value.replace(/[&<>"']/g, (character) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[character] ?? character)
